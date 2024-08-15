@@ -1,0 +1,410 @@
+body {
+    background: linear-gradient(227deg, #27005d, #bb5c8d, #ff004d, #faef5d);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 35s ease infinite;
+    -moz-animation: AnimationName 35s ease infinite;
+    animation: AnimationName 35s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-style: italic;
+    font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
+    letter-spacing: 0.lem;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 55%}
+    50%{background-position:100% 46%}
+    100%{background-position:0% 55%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 55%}
+    50%{background-position:100% 46%}
+    100%{background-position:0% 55%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 55%}
+    50%{background-position:100% 46%}
+    100%{background-position:0% 55%}
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover
+{
+    color:greenyellow;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 1000px;
+}
+/* 2xl 1 */
+@media (max-width: 1536px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 1000px;
+}
+h1 
+{
+    font-size: 40px;
+}
+}
+/* 2xl */
+@media (max-width: 1400px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 900px;
+}
+h1 
+{
+    font-size: 40px;
+}
+}
+/* xl */
+@media (max-width: 1280px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 1000px;
+}
+h1{
+    font-size: xx-large;
+}
+}
+
+/* lg 1 */
+@media (max-width: 1100px) {
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 900px;
+}
+h1 
+{
+    font-size: 40px;
+}
+}
+
+/* lg 2 */
+@media (max-width: 1000px) {
+    a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    .name
+    {
+        text-align: center;
+    }
+    .container
+    {
+        width: 800px;
+    }
+    h1 
+    {
+        font-size: 35px;
+    }
+    }
+/* md 1 */
+@media (max-width: 950px) {
+    a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    .name
+    {
+        text-align: center;
+    }
+    .container
+    {
+        width: 800px;
+    }
+    h1 
+    {
+        font-size: 35px;
+    }
+    }
+    @media (max-width: 900px) {
+        a
+        {
+            color: #fff;
+            text-decoration: none;
+        }
+        .name
+        {
+            text-align: center;
+        }
+        .container
+        {
+            width: 775px;
+        }
+        h1 
+        {
+            font-size: 35px;
+        }
+        }
+    /* md 3 */
+@media (max-width: 850px) {
+    a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    .name
+    {
+        text-align: center;
+    }
+    .container
+    {
+        width: 700px;
+    }
+    h1 
+    {
+        font-size: 33px;
+    }
+    }
+/* md 4 */
+@media (max-width: 770px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 600px;
+}
+h1 
+{
+    font-size:3.2vh ;
+}
+}
+/* md 5 */
+@media (max-width: 700px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 600px;
+}
+h1 
+{
+    font-size:3.3vh ;
+}
+}
+/* sm 1*/
+@media (max-width: 640px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 550px;
+}
+h1 
+{
+    font-size: 25px;
+}
+}
+/* sm 2*/
+@media (max-width: 620px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 550px;
+}
+h1 
+{
+    font-size: 25px;
+}
+}
+/* sm 3*/
+@media (max-width: 550px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 450px;
+}
+h1 
+{
+    font-size: x-large;
+}
+}
+/* xs */
+@media (max-width: 475px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 350px;
+}
+h1 
+{
+    font-size: x-large;
+}
+}
+/* xxs */
+@media (max-width: 400px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 300px;
+}
+h1 
+{
+    font-size: 23px;
+}
+}
+/* xxs */
+@media (max-width: 380px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 275px;
+}
+h1 
+{
+    font-size: 20px;
+}
+}
+/* xxs 1 */
+@media (max-width: 360px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 275px;
+}
+h1 
+{
+    font-size: 20px;
+}
+}
+/* xxs 2*/
+@media (max-width: 300px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.name
+{
+    text-align: center;
+}
+.container
+{
+    width: 250px;
+}
+h1 
+{
+    font-size: 18px;
+}
+}

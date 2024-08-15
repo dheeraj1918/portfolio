@@ -1,0 +1,381 @@
+body {
+    background: linear-gradient(270deg, #5f0f40, #fb8b24, #e36414, #9a031e);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.loader {
+    border: 16px solid none;
+    border-radius: 50%;
+    border-top: 10px dashed #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1s linear infinite; 
+    animation: spin 2s linear infinite;
+    
+  }
+  
+.loader-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.navbar {
+    overflow: hidden;
+    background-color: none;
+    position:static;
+    margin-left:50px;
+}  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: black;
+    text-transform: lowercase;
+}
+.home a{
+    text-decoration: none;
+    float: right;
+    margin-right: 50px;
+    color: white;
+}
+.home a:hover
+{
+    color: black;
+    text-transform: lowercase;
+}
+.comment{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 6rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* 2xl 1 */
+@media (max-width: 1536px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 1000px;
+}
+h1 
+{
+    font-size: 40px;
+}
+}
+/* 2xl */
+@media (max-width: 1400px) {
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 900px;
+}
+h1 
+{
+    font-size: 40px;
+}
+}
+/* xl */
+@media (max-width: 1280px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 1000px;
+}
+h1{
+    font-size: xx-large;
+}
+}
+
+/* lg 1 */
+@media (max-width: 1100px) {
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 900px;
+}
+h1 
+{
+    font-size: 40px;
+}
+}
+
+/* lg 2 */
+@media (max-width: 1000px) {
+    a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    .container
+    {
+        width: 800px;
+    }
+    h1 
+    {
+        font-size: 35px;
+    }
+    }
+/* md 1 */
+@media (max-width: 950px) {
+    a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    .container
+    {
+        width: 800px;
+    }
+    h1 
+    {
+        font-size: 35px;
+    }
+    }
+    @media (max-width: 900px) {
+        a
+        {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container
+        {
+            width: 775px;
+        }
+        h1 
+        {
+            font-size: 35px;
+        }
+        }
+    /* md 3 */
+@media (max-width: 850px) {
+    a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    .container
+    {
+        width: 700px;
+    }
+    h1 
+    {
+        font-size: 33px;
+    }
+    }
+/* md 4 */
+@media (max-width: 770px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 600px;
+}
+h1 
+{
+    font-size:3.2vh ;
+}
+}
+/* md 5 */
+@media (max-width: 700px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 600px;
+}
+h1 
+{
+    font-size:3.3vh ;
+}
+}
+/* sm 1*/
+@media (max-width: 640px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 550px;
+}
+h1 
+{
+    font-size: 25px;
+}
+}
+/* sm 2*/
+@media (max-width: 620px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 550px;
+}
+h1 
+{
+    font-size: 25px;
+}
+}
+/* sm 3*/
+@media (max-width: 550px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 450px;
+}
+h1 
+{
+    font-size: x-large;
+}
+}
+/* xs */
+@media (max-width: 475px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 350px;
+}
+h1 
+{
+    font-size: x-large;
+}
+}
+/* xxs */
+@media (max-width: 400px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 300px;
+}
+h1 
+{
+    font-size: 23px;
+}
+}
+/* xxs */
+@media (max-width: 380px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 275px;
+}
+h1 
+{
+    font-size: 20px;
+}
+}
+/* xxs 1 */
+@media (max-width: 360px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 275px;
+}
+h1 
+{
+    font-size: 5px;
+}
+}
+/* xxs 2*/
+@media (max-width: 300px) {
+    a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.container
+{
+    width: 250px;
+}
+h1 
+{
+    font-size: 18px;
+}
+}
