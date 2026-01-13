@@ -6,15 +6,108 @@
     <link rel="stylesheet" href="projects-style.css">
     <title>PROJECTS|Dheeraj Pabolu</title>
     <script src="disable-devtools.js" defer></script>
+    <style>
+        table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+th:nth-child(1), td:nth-child(1) {
+  width: 60%;
+  text-align: left;
+  padding-left: 20px;
+  overflow-wrap: break-word;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 20%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 20%;
+}
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+    </style>
 </head>
-<body>
+<body >
+    <script>
+        async function getProjects(){
+            try{
+                const url="https://api.github.com/users/dheeraj1918/repos"
+                const response=await fetch(url)
+                const data=await response.json()
+                const table=document.getElementById("tableData")
+                table.innerHTML=""
+                data.forEach(repo=>{
+                    const tr=document.createElement("tr")
+
+                    const nameTd=document.createElement("td")
+                    const a=document.createElement("a")
+                    a.href=repo.html_url
+                    a.target="_blank"
+                    a.innerHTML=repo.name 
+
+                    nameTd.appendChild(a) 
+
+                    const privateTd=document.createElement("td")
+                    privateTd.innerHTML=repo.private?"Yes":"No"
+
+                    const forkTd=document.createElement("td")
+                    forkTd.innerHTML=repo.fork?"Yes":"No"
+
+                    tr.appendChild(nameTd)
+                    tr.appendChild(privateTd)
+                    tr.appendChild(forkTd)
+                    table.appendChild(tr)
+
+
+                })
+                
+                
+            }
+            catch(error){
+                console.error(error);
+            }
+        }
+       
+    </script>
     <div class="container">
         <h2>Pr0jEcT's</h2> <br>
+        <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
+            <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Private</th>
+            <th>Fork</th>
+        </tr>
+    </thead>
+    <tbody id="tableData"></tbody>
+        </table>
+
         <h2>GITHUB: <a href="https://github.com/dheeraj1918" target="_blank"> &#10143; ClicK</a></h2>
         <div class="home">
             <h1 style="float:right; font-size:20px;"><a href="index.html"><< HOME</a> </h1>
         </div>
     </div>
+    <script>
+        getProjects()
+    </script>
 </body>
 </html>
 
