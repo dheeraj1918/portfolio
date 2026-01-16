@@ -1,9 +1,6 @@
 body {
-    background: linear-gradient(270deg, #7d0a0a, #bf3131, #ead196, #f3edc8);
-    background-size: 800% 800%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+    background: #fafafa;
+  color: #111;
     display:block;
     justify-content: center;
     align-items: center;
@@ -54,7 +51,7 @@ body {
     text-decoration: none;
 }
 .navbar a:hover{
-    color: greenyellow;
+    color: rgb(234, 131, 27);
     text-transform: lowercase;
 }
 .home a{
@@ -65,7 +62,7 @@ body {
 }
 .home a:hover
 {
-    color: greenyellow;
+    color: rgb(234, 131, 27);
     text-transform: lowercase;
 }
 
