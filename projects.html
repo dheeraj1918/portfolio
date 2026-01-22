@@ -72,9 +72,25 @@ body {
                     const forkTd=document.createElement("td")
                     forkTd.innerHTML=repo.fork?"Yes":"No"
 
+                    const stars=document.createElement("td")
+                    stars.innerHTML=repo.stargazers_count
+                    
+                    const views=document.createElement("td")
+                    views.innerHTML=repo.watchers_count
+
+                    const latestUpdate=document.createElement("td")
+                    let date=repo.updated_at
+                    latestUpdate.innerHTML=date.slice(0,10)
+
+
+
                     tr.appendChild(nameTd)
                     tr.appendChild(privateTd)
                     tr.appendChild(forkTd)
+                    tr.appendChild(stars)
+                    tr.appendChild(views)
+                    tr.appendChild(latestUpdate)
+
                     table.appendChild(tr)
 
 
@@ -96,6 +112,9 @@ body {
             <th>Repository</th>
             <th>Private</th>
             <th>Fork</th>
+            <th>Stars</th>
+            <th>Views</th>
+            <th>Latest Update</th>
         </tr>
     </thead>
     <tbody id="tableData"></tbody>
