@@ -76,7 +76,7 @@ h1
 @media (max-width: 1400px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -96,7 +96,7 @@ h1
 @media (max-width: 1280px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -116,7 +116,7 @@ h1{
 @media (max-width: 1100px) {
 a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -137,7 +137,7 @@ h1
 @media (max-width: 1000px) {
     a
     {
-        color: #fff;
+        color: black;
         text-decoration: none;
     }
     .name
@@ -157,7 +157,7 @@ h1
 @media (max-width: 950px) {
     a
     {
-        color: #fff;
+        color: black;
         text-decoration: none;
     }
     .name
@@ -176,7 +176,7 @@ h1
     @media (max-width: 900px) {
         a
         {
-            color: #fff;
+            color: black;
             text-decoration: none;
         }
         .name
@@ -196,7 +196,7 @@ h1
 @media (max-width: 850px) {
     a
     {
-        color: #fff;
+        color: black;
         text-decoration: none;
     }
     .name
@@ -216,7 +216,7 @@ h1
 @media (max-width: 770px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -236,7 +236,7 @@ h1
 @media (max-width: 700px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -256,7 +256,7 @@ h1
 @media (max-width: 640px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -276,7 +276,7 @@ h1
 @media (max-width: 620px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -296,7 +296,7 @@ h1
 @media (max-width: 550px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -316,7 +316,7 @@ h1
 @media (max-width: 475px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -336,7 +336,7 @@ h1
 @media (max-width: 400px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -356,7 +356,7 @@ h1
 @media (max-width: 380px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -376,7 +376,7 @@ h1
 @media (max-width: 360px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -396,7 +396,7 @@ h1
 @media (max-width: 300px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: large;
 }
@@ -413,3 +413,4 @@ h1
     font-size: 18px;
 }
 }
+
