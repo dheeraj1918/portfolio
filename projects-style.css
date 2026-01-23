@@ -56,7 +56,7 @@ h2:hover{
 @media (max-width: 1536px) {
     a
 {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .name
@@ -413,4 +413,5 @@ h1
     font-size: 18px;
 }
 }
+
 
